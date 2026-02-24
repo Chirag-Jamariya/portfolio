@@ -14,13 +14,13 @@ const geistMono = Geist_Mono({
 })
 
 export const metadata: Metadata = {
-  title: 'Chirag - Senior Full-Stack Developer',
+  title: 'hotcoffee',
   description: 'Full-stack developer specializing in web applications, cloud infrastructure, and scalable systems.',
   keywords: ['developer', 'full-stack', 'web development', 'react', 'next.js', 'portfolio'],
   authors: [{ name: 'Chirag' }],
   generator: 'v0.app',
   openGraph: {
-    title: 'Chirag - Senior Full-Stack Developer',
+    title: 'hotcoffee',
     description: 'Full-stack developer specializing in web applications, cloud infrastructure, and scalable systems.',
     type: 'website',
     locale: 'en_US',
@@ -28,16 +28,19 @@ export const metadata: Metadata = {
   icons: {
     icon: [
       {
-        url: '/icon-light-32x32.png',
-        media: '(prefers-color-scheme: light)',
+        url: '/favicon-512x512.png',
+        sizes: '512x512',
+        type: 'image/png',
       },
       {
-        url: '/icon-dark-32x32.png',
-        media: '(prefers-color-scheme: dark)',
+        url: '/favicon-192x192.png',
+        sizes: '192x192',
+        type: 'image/png',
       },
       {
-        url: '/icon.svg',
-        type: 'image/svg+xml',
+        url: '/favicon.png',
+        sizes: '32x32',
+        type: 'image/png',
       },
     ],
     apple: '/apple-icon.png',
