@@ -37,7 +37,7 @@ export function Footer() {
           >
             <h3 className="text-xl font-bold text-primary">Chirag</h3>
             <p className="text-sm text-muted-foreground">
-              Senior Full-Stack Developer
+              Full-Stack Developer
             </p>
           </motion.div>
 

@@ -180,7 +180,7 @@ export function Projects() {
           {/* See More */}
           <motion.div variants={staggerItem} className="text-center pt-8">
             <a
-              href="https://github.com/chirag"
+              href="https://github.com/Chirag-Jamariya?tab=repositories"
               target="_blank"
               rel="noopener noreferrer"
               className="inline-block px-6 py-3 bg-primary text-primary-foreground rounded-lg font-semibold hover:bg-primary/90 transition-colors cursor-target"

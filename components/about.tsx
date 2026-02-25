@@ -62,7 +62,7 @@ export function About() {
             className="grid grid-cols-3 gap-4 md:gap-6 pt-8"
           >
             {[
-              { label: 'CGPA', value: '8.33/10' },
+              { label: 'CGPA', value: '8.33' },
               { label: 'Graduation', value: 'May 2027' },
               { label: 'Focus', value: 'Full-Stack' },
             ].map((stat, index) => (

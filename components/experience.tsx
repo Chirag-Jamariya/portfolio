@@ -16,12 +16,6 @@ export function Experience() {
       ref={ref}
       className="py-20 md:py-32 px-4 sm:px-6 lg:px-8 bg-background relative overflow-hidden"
     >
-      {/* Animated timeline line */}
-      <motion.div
-        className="hidden md:block absolute left-1/2 -translate-x-1/2 top-0 bottom-0 w-1 bg-gradient-to-b from-transparent via-accent/40 to-transparent"
-        animate={{ opacity: [0.2, 0.5, 0.2] }}
-        transition={{ duration: 2.5, repeat: Infinity }}
-      />
 
       <div className="max-w-4xl mx-auto relative z-10">
         <motion.div
