@@ -59,14 +59,14 @@ export const skills = [
 
 export const experience = [
   {
-    role: 'Full-stack Developer Intern',
-    company: 'V-NEST',
-    period: 'April 2025 – Present',
-    description: 'Developing full-stack applications with a focus on responsive design and performance optimization.',
+    role: 'Software Developer Intern',
+    company: 'Wedzat',
+    period: 'May 2026 – July 2026',
+    description: 'Engineered dashboard endpoints, resolved critical automation bugs, and optimized data fetching for a high-traffic platform.',
     highlights: [
-      'Developed the landing page utilizing Next.js, TailwindCSS, and Postgres',
-      'Built a React dashboard visualizing key metrics for 20+ partner companies, boosting stakeholder insights by 40%',
-      'Collaborated and worked closely with a cross-functional team of 10+ people',
+      'Engineered FastAPI endpoints and optimized PostgreSQL for an internal executive dashboard, tracking engagement and revenue across a 100,000+ user platform.',
+      'Resolved a critical mass-email bug affecting 100K+ users by rebuilding the automation pipeline using durable atomic writes.',
+      'Eliminated backend rate-limiting and UI thread freezing for massive data queries by engineering a progressive background fetcher with bounded concurrency, exponential backoff, and optimistic cache hydration.',
     ],
   },
   {
@@ -78,6 +78,17 @@ export const experience = [
       'Developed 15+ interactive UI components using Next.js and Tailwind CSS, which reduced development time by 40%',
       'Implemented API integrations across 8+ sections for dynamic data display to improve loading efficiency by 35%',
       'Researched SEO and performance metrics to effectively enhance user reach and engagement',
+    ],
+  },
+  {
+    role: 'Full-stack Developer Intern',
+    company: 'V-NEST',
+    period: 'April 2025 – May 2026',
+    description: 'Developing full-stack applications with a focus on responsive design and performance optimization.',
+    highlights: [
+      'Developed the landing page utilizing Next.js, TailwindCSS, and Postgres',
+      'Built a React dashboard visualizing key metrics for 20+ partner companies, boosting stakeholder insights by 40%',
+      'Collaborated and worked closely with a cross-functional team of 10+ people',
     ],
   },
 ]
